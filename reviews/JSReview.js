@@ -144,4 +144,38 @@ function countDistinctSubstrings(str) {
 console.log(countDistinctSubstrings("gffg")); // Output: 6
 console.log(countDistinctSubstrings("gfg"));  // Output: 5
 
+console.log("------------------------------------");
 
+let elements = [10, 20, 30, 40, 50];
+
+console.log(elements);
+
+// use for of loop to access each elements of the array.
+for(let element of elements){
+    console.log(element);
+}
+
+console.log("------------------------------------");
+
+// use for loop to print teh elments of the array in reversed order.
+for(let i = elements.length - 1; i >= 0; i--){
+    console.log(elements[i]);
+}
+
+console.log("------------------------------------");
+
+/*
+Create a function that can reverse a string.
+    the function takes an argument and returns the reversed string.
+*/
+
+function reverseString(str) {
+    let reversed = "";
+    for(let i = str.length - 1; i >= 0; i--){
+        reversed += str[i];
+    }
+    return reversed;
+}
+
+
+// come back at 12:40 PM EST
