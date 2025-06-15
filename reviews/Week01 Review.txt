@@ -33,6 +33,35 @@ Interpreted Programming languages:
         num = true;
 
 
+Promise: Future Value/Error (50/50)
+    Represents the value that will be available either now, or in the future, or never
+
+
+Task01:
+    Make a promise to return the value
+    Step1
+    Step2
+    Step3
+    Step4
+    Step5: Return a promise
+
+Task02:
+    Step1
+    Step2
+    Step3 (Need the value of task01 is retirning) ==> await for the promised value
+    Step4
+
+Task03:
+    Step1
+    Step2
+    Step3
+    Step4 (Need the value of task01 is retirning) ==> await for the promised value
+
+Task04:
+    Step1
+    Step2 (Need the value of task01 is retirning) ==> await for the promised value
+    Step3
+    Step4
 
 ----------------------------------
 
@@ -67,4 +96,7 @@ Create a function that can Count of substrings having all distinct characters
             All possible substrings from the given string are,
             ( “g“, “gf“, “gfg”, “f“, “fg“, “g” )
             Among them, the highlighted ( “g“, “gf“, “f“, “fg“, “g” ) consists of distinct characters only.
+
+
+==============================
 
